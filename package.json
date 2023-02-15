@@ -1,6 +1,6 @@
 {
   "name": "vite-svg-sprite-plugin",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "svg loader for vite",
   "main": "index.js",
   "scripts": {

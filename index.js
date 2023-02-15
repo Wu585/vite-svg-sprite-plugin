@@ -4,7 +4,7 @@ import fs from 'fs'
 import store from 'svgstore' // 用于制作 SVG Sprites
 import {optimize} from 'svgo' // 用于优化 SVG 文件
 
-export const svgstore = (options = {}) => {
+const svgstore = (options = {}) => {
   const inputFolder = options.inputFolder || 'src/assets/icons';
   return {
     name: 'svgstore',

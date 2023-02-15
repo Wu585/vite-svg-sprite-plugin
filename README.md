@@ -2,9 +2,9 @@
 
 ### Install
 ```bash
-yarn add vite-svg-loader
+yarn add vite-svg-sprite-plugin
 or 
-npm install vite-svg-loader --save-dev 
+npm install vite-svg-sprite-plugin
 ```
 
 ### Setup

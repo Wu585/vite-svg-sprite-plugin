@@ -1,11 +1,13 @@
 /* eslint-disable */
+// import path from 'path'
+// import fs from 'fs'
 import store from 'svgstore' // 用于制作 SVG Sprites
 import {optimize} from 'svgo' // 用于优化 SVG 文件
 
 const path = require('path')
 const fs = require('fs')
 
-const svgstore = (options = {}) => {
+module.exports = function (options = {}) {
   const inputFolder = options.inputFolder || 'src/assets/icons';
   return {
     name: 'svgstore',
@@ -54,4 +56,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 }
 
-export default svgstore

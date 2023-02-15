@@ -25,6 +25,8 @@ import '@svgstore';
 ### Options
 default path is 'src/assets/icons'
 ```js
-svgstore('your-svg-path')
+svgstore({
+  inputFolder: 'src/assets/svgs'
+})
 ```
 

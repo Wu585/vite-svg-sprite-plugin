@@ -52,3 +52,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 }
+
+export default svgstore

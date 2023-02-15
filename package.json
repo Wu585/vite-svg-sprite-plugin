@@ -3,11 +3,23 @@
   "version": "0.0.8",
   "description": "svg loader for vite",
   "main": "index.js",
+  "keywords": [
+    "vite",
+    "vue",
+    "svg"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ricky",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wu585/vite-svg-sprite-plugin.git"
+  },
+  "author": {
+    "name": "Ricky",
+    "email": "rickywu585@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "svgo": "^3.0.2",
     "svgstore": "^3.0.1"

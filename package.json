@@ -1,0 +1,11 @@
+{
+  "name": "vite-svg-sprite-plugin",
+  "version": "1.0.0",
+  "description": "svg loader for vite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricky",
+  "license": "MIT"
+}

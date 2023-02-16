@@ -1,5 +1,8 @@
 # Vite SVG Sprite Plugin
 
+### Introduction
+Combines multiple SVG files into one using <symbol> elements.
+
 ### Install
 ```bash
 yarn add vite-svg-sprite-plugin

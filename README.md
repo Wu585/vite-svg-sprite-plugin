@@ -30,3 +30,10 @@ svgstore({
 })
 ```
 
+### Use
+```html
+<svg>
+  <use xlinkHref={'#svgname'}></use>
+</svg>
+```
+
